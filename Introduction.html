@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+
+    <style>
+           /* all h2 elements */
+        h2{
+            color: red;
+            text-align: center;
+        }
+
+        /* all with class="highlight" */
+        .highlight {
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            background-color: green;
+            opacity: .6;
+        }
+
+        /* element with id="mainPoint" */
+        #mainPoint{
+            font-size: 24px;
+            font-weight: bold;
+            background-color: red;
+            opacity: .7;
+        }
+
+        /* all p and h1 elements */
+        p,h1 {
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Headinf</h1>
+    <h2>Sub Heading 1</h2>
+    <p class="highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus tristique dui sit amet volutpat.
+         Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras placerat urna vitae elit venenatis finibus. 
+         Nam non enim metus. Donec aliquam dui nisi, sed dignissim nisi accumsan a. Maecenas tempus nibh pulvinar congue aliquam.
+         Suspendisse ut tincidunt risus, non pretium libero. Nunc ut ante vel erat viverra dictum. Phasellus purus mauris, malesuada sit amet auctor consequat, pharetra eu massa. 
+         Sed eget sodales nibh, vel dapibus urna. Integer luctus libero vel vehicula viverra. In sodales sollicitudin quam non hendrerit. 
+         Duis tellus tellus, egestas quis consequat vitae, sollicitudin sit amet tortor. Praesent convallis placerat elementum. 
+         Suspendisse volutpat laoreet nibh id imperdiet. Fusce egestas commodo lacus, eget facilisis massa scelerisque auctor.</p>
+         <div class="highlight">Nulla gravida efficitur molestie. Maecenas nec urna lectus. Donec malesuada mauris ante, at luctus purus molestie at.
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae luctus ante.
+              Vestibulum sed mollis massa. Aliquam in ultrices ligula, quis viverra mi. Proin nisl enim, lacinia id scelerisque aliquam, tincidunt consectetur elit.
+               Aenean porta quam sit amet molestie suscipit. Nunc id ante ipsum. Maecenas viverra massa efficitur metus egestas ornare ut sed libero.
+                Phasellus et libero massa. Ut lectus massa, pulvinar sed velit ut, pellentesque laoreet dui.
+              Phasellus euismod gravida justo, eu blandit quam tincidunt quis.</div>
+    <h2>Sub Heading 2</h2>
+    <p>Nam vestibulum in eros eget placerat. Morbi et diam eu sem venenatis viverra ut ac dui.
+         Mauris faucibus pretium sagittis. Vivamus a nulla sed lectus venenatis aliquet.
+          Nullam fermentum facilisis tincidunt. Nullam ultrices dui nec tempus aliquam. Proin sit amet condimentum metus.
+           Proin erat eros, commodo vel odio eu, sollicitudin consectetur nisl. Maecenas imperdiet tincidunt auctor. Vivamus facilisis leo libero, sed accumsan ligula posuere ullamcorper. Duis lorem diam, aliquam sit amet bibendum sit amet, varius a magna. Donec accumsan a orci et euismod. Donec eget efficitur quam.
+        Cras consequat velit vel augue malesuada, sed tincidunt enim semper. Donec laoreet at urna et feugiat.
+         Vivamus laoreet vulputate eleifend. Vestibulum ultrices nunc id maximus tempor. Pellentesque enim eros, dapibus vel eros a, tristique lobortis lorem.
+          Donec convallis mollis pretium. Nunc vehicula suscipit massa ac imperdiet. Nulla convallis ut nulla in ultrices. Mauris eu massa nunc.
+           Aliquam vel magna id diam dictum molestie. Duis id finibus nibh. Etiam sagittis eros eget arcu viverra, eu vestibulum purus congue.
+            Nulla scelerisque cursus tortor et pharetra. Phasellus venenatis, sem vehicula condimentum iaculis, nisl erat ullamcorper felis, quis fermentum nisl purus id ante.
+        </p>
+
+    <p>Cras consequat velit vel augue malesuada, sed tincidunt enim semper. Donec laoreet at urna et feugiat. 
+        Vivamus laoreet vulputate eleifend. Vestibulum ultrices nunc id maximus tempor. Pellentesque enim eros, dapibus vel eros a, tristique lobortis lorem. 
+        Donec convallis mollis pretium. Nunc vehicula suscipit massa ac imperdiet. Nulla convallis ut nulla in ultrices. Mauris eu massa nunc.
+         Aliquam vel magna id diam dictum molestie. Duis id finibus nibh.
+         Etiam sagittis eros eget arcu viverra, eu vestibulum purus congue. Nulla scelerisque cursus tortor et pharetra.
+         Phasellus venenatis,<span id="mainPoint">sem vehicula condimentum iaculis, nisl erat ullamcorper felis, quis fermentum nisl purus id ante.</span> Proin ut erat massa. Donec vel sapien ante. Nam lacinia orci a diam tincidunt accumsan. </p>
+</body>
+</html>
